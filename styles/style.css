@@ -6,23 +6,34 @@
 body{
     font-family: 'Poppins', sans-serif;
     display: flex;
+    
 }
 
 /* conmobel copa america starts  */
-.top{
-    width: 1440px;
-    height: 677px;
-    background-color: #2D25A0;
+
+.top-head{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
     align-items: center;
     margin-bottom: 70px;
+}
+
+.top-head:hover .text-button .ancor{
+    background-color: red;
 }
 .text-button{
     width: 485px;
     height: 230px;
     margin-left: 156px;
+    margin-bottom: 240px;
+    
     font-size: 64px;
+}
+.top .text-button p{
+    color: #FFFFFF;
 }
 
 .top .text-button a{
@@ -30,6 +41,11 @@ body{
     font-size: 16px;
     text-decoration: none;
     background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 40px;
+}
+
+.fa-long-arrow-alt-right.color{
     color: #FFFFFF;
 }
 .top-img{
@@ -79,6 +95,7 @@ img{
     width: 300px;
     height: 104px;
     font-family: 'Poppins', sans-serif;
+    position: absolute;
 }
 
 .player-details-box{
