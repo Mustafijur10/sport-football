@@ -6,8 +6,8 @@
 /* Main parts  */
 
 main{
-    width: 1440px;
-    height: 3750px;
+    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,6 +125,36 @@ img{
     position: absolute;
 }
 
+/* highlights section started */
+
+.highlghits{
+    width: 1440px;
+    height: 400px;
+    background-color: #2D25A0;
+}
+
+.highlights-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-thumbnail{
+    display: flex;
+    
+}
+.high-title{
+    color: white;
+    font-size: 28px;
+}
+.high-thumbnail{
+    margin: 40px;
+   
+}
+.high-thumbnail img{
+    width: 80%;
+}
+
 /* Partners details */
 .partners{
     width: 1440px;
@@ -159,10 +189,10 @@ img{
 }
 .all-partners-image{
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .partner-image img{
-    width: 100%;
+    width: 70%;
 }
 /* Footer  */
 
@@ -185,3 +215,51 @@ img{
     font-size: 18px;
 }
 
+
+
+/* ----------------------------------------------------
+                     Media Query
+-------- -------------------------------------------- */
+
+@media only screen and (max-width:688px){
+    main{
+        width: 100%;
+    }
+    .top-head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-img img{
+        display: none;
+        width: 100%;
+    }
+    .players{display: flex;
+        flex-direction: column;
+    }
+    .highlghits{
+        width: 100%;
+    }
+    .highlights-video{
+        display: flex;
+        flex-direction: column;
+    }
+    .partners{
+        width: 100%;
+    }
+    .partners-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .all-partners-image{
+        width: 100%;
+    }
+    .foot{
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+}
