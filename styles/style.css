@@ -20,6 +20,8 @@ body{
     align-items: center;
     margin-bottom: 70px;
 }
+/* hover in image and ancor */
+
 
 .top-head:hover .text-button .ancor{
     background-color: red;
@@ -30,6 +32,11 @@ body{
     transform: scale(1.1);
     transition: transform 1s;
 }
+
+
+/* ---------------------------- */
+
+
 .text-button{
     width: 485px;
     height: 230px;
@@ -110,4 +117,22 @@ img{
     position: absolute;
 }
 
+/* Footer  */
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    width: 483.87px;
+    height: 213px;
+    align-items: center;
+}
+.foot-icons{
+    color: #969BAB;
+}
+.foot-icons i{
+    margin: 7.4px;
+}
+.foot-icons p{
+    font-size: 18px;
+}
 
